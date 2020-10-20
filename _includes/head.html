@@ -23,5 +23,8 @@
     {% for script in site.js %}
     <script type="text/javascript" src="{{site.baseurl}}{{script}}"></script>
     {% endfor %}
+    
+    {% include analytics.html %}
+
   </head>
   
