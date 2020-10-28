@@ -64,3 +64,68 @@ body {
 .home-placard-bold {
     mso-bidi-font-weight:normal;
 }
+
+.wrapper {
+    max-width: 55em;
+    width: 90%;
+}
+
+
+/* */
+
+#navigation {
+    text-align: center;
+    border-bottom: 1px solid #121212; 
+    border-top: 1px solid #121212;
+}
+
+.no-underline {
+    text-decoration: none;
+    color:black;
+}
+
+
+.navigation-tab {
+    text-align: center;
+}
+
+
+#navigation ul {
+    display: inline;
+    list-style: none;
+    line-height: 200%;
+    margin: 0 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    text-align:center;
+}
+
+#navigation ul li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#blog-description {
+    border-top: 1px solid #121212;
+    line-height: 200%;
+}
+
+#header #blog-description, #header h1#blog-title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#header {
+    text-align: center;
+}
+
+/* */
+.flex-center-vertically {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+  }
